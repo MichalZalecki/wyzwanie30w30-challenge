@@ -10,6 +10,8 @@ npm run coverage:sol       # run the solidity code test coverage
 npm run lint:sol           # run the linter for the solidity code
 ```
 
-![BlockchainPro](./blockchainpro.jpg)
+## BlockchainPro
 
 Learn more on [BlockchainPro.pl](http://blockchainpro.pl)
+
+![BlockchainPro](./blockchainpro.jpg)
