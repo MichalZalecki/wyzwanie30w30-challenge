@@ -23,6 +23,7 @@ contract GreeterTest {
 
   function testSetGreetingsOnlyOwner() public {
     instance = Greeter(DeployedAddresses.Greeter());
+    // solium-disable-next-line security/no-low-level-calls
     bool result = address(instance).call(bytes4(keccak256("setGreetings(string)")), "Hello!");
     Assert.equal(result, false, "non-owner can set greetings");
   }
